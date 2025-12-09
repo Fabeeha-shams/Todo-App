@@ -1,0 +1,95 @@
+/* *{
+ justify-content: center;
+ display: flex;
+ padding: 30px;   
+background-color:aliceblue ;
+}
+.container{
+    width: 100%;
+    max-width: 450px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px cornflowerblue;
+} */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background: rgb(146, 134, 146);
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+
+.container {
+  width: 100%;
+  max-width: 450px;
+  background: rgb(233, 227, 227);
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+input {
+  flex: 1;
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 14px;
+}
+
+button {
+  padding: 12px 15px;
+  border: none;
+  background: #1B3C53;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+ul {
+  list-style: none;
+  margin-top: 10px;
+}
+
+li {
+  background: #fafafa;
+  padding: 12px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 8px;
+  align-items: center;
+  border: 1px solid #eee;
+}
+
+li.done {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.actions button {
+  background: #eee;
+  color: #333;
+  margin-left: 5px;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+}
